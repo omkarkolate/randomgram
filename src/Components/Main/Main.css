@@ -1,0 +1,55 @@
+main {
+  width: 100%;
+  margin-top: 55px;
+}
+
+.main-container {
+  width: 935px;
+  margin: 0 auto;
+  display: flex;
+  max-width: 1000px;
+}
+
+.story-section {
+  display: flex;
+  border: 1px solid lightgray;
+  padding: 10px;
+  background-color: white;
+  overflow: auto;
+  margin: 20px 0;
+}
+
+.feed {
+  width: 620px;
+}
+
+aside {
+  margin: 20px 0 0 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  aside {
+    display: none;
+  }
+
+  .main-container {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .main-container,
+  .feed {
+    width: 100%;
+  }
+
+  main {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .story-section {
+    margin: 0;
+    border: 0;
+    border-bottom: 1px solid lightgray;
+  }
+}

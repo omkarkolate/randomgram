@@ -1,0 +1,98 @@
+.side-section {
+  /* border: 1px solid black; */
+  background-color: #fafafa;
+  width: 293px;
+  padding: 20px;
+  position: fixed;
+}
+
+.user-card {
+  display: flex;
+  align-items: center;
+}
+
+.user-card .MuiAvatar-root {
+  width: 56px;
+  height: 56px;
+}
+
+/* .user-card img {
+  width: 56px;
+  height: 56px;
+  border-radius: 54px;
+} */
+
+.user-card div p {
+  margin: 0;
+}
+
+.user-card div {
+  margin-left: 10px;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.suggestions .heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.suggestions {
+  margin: 20px 0;
+}
+
+.color-gray {
+  color: gray;
+}
+
+.suggestions ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.suggestions ul li img {
+  width: 32px;
+  height: 32px;
+  border-radius: 32px;
+}
+
+.suggestions ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.follow-user-card {
+  display: flex;
+}
+
+.follow-user-card p {
+  margin: 0 10px;
+}
+
+.follow-user-info {
+  color: gray;
+  font-size: 14px;
+}
+
+.follow-button {
+  border: 0;
+  outline: 0;
+  background-color: #fafafa;
+  font-weight: bold;
+  color: #0095f6;
+  cursor: pointer;
+}
+
+.footer-info {
+  color: gray;
+  font-size: 12px;
+}
+
+.copyright {
+  padding-top: 20px;
+}

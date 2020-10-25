@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+}
+
+.App {
+  font-family: "Roboto", Helvetica, sans-serif;
+  font-size: 14px;
+  color: #262626;
+  position: relative;
+}
+
+.loadding {
+  color: hotpink;
+  text-align: center;
+}
+
+@media screen and (max-width: 650px) {
+  body {
+    background-color: white;
+  }
+}
